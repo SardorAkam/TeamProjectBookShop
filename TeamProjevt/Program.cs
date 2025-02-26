@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq.Expressions;
 using System.Threading.Channels;
-using TeamProjevt;
+
 
 namespace Bookshop
 {
@@ -118,6 +118,10 @@ namespace Bookshop
                                     else if (choise == '1')
                                     {
                                         // logika qoshish kere
+                                        Console.Write("Karta raqamingizni kriting: ");
+                                        long sell = int.Parse(Console.ReadLine());
+
+
                                     }
                                 }
                                 else if (choise == '2')
