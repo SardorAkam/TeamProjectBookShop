@@ -100,13 +100,6 @@ namespace Bookshop
             }
         }
 
-        public void Sell(long cardNumber)
-        {
-            
-
-
-
-        }
-        public double Summa = 0;
+       
     }
 }

@@ -21,9 +21,7 @@ namespace Bookshop
             usersArr[0, 1] = "0000";
             books.DefBooks();
            
-            Console.Write("kartangizdagi mablag'ni kriting: ");
-            tools.Summa = double.Parse(Console.ReadLine());
-            
+           
 
             while (true)
             {
@@ -123,14 +121,7 @@ namespace Bookshop
                                     else if (choise == '1')
                                     {
                                         // logika qoshish kere
-                                        Console.Write("Karta raqamingizni kriting: ");
-                                        long sell = int.Parse(Console.ReadLine());
-                                        string roomNumber = Convert.ToString(sell);
-                                        if( roomNumber.Length == 16)
-                                        { 
-                                           tools.Sell(sell);   
-                                            
-                                        }
+                                        
 
 
 
