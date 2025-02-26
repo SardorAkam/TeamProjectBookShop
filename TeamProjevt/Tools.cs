@@ -10,8 +10,10 @@ namespace Bookshop
     //Qaleslar
     internal class Tools
     {
+        
         public string Tab { get; } = "                              ";
         public string[,] Users { get; set; } = new string[10, 2];
+        
         public bool CheckUser(string email)
         {
             for (int i = 0; i < Users.Length / 2; i++)
@@ -98,5 +100,13 @@ namespace Bookshop
             }
         }
 
+        public void Sell(long cardNumber)
+        {
+            
+
+
+
+        }
+        public double Summa = 0;
     }
 }
