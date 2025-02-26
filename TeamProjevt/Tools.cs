@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Bookshop
 {
+    //Qaleslar
     internal class Tools
     {
         public string Tab { get; } = "                              ";
